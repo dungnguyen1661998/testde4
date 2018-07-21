@@ -1,0 +1,271 @@
+.khung {
+  width: 100%;
+  height: auto;
+}
+.khung .content {
+  width: 100%;
+  float: left;
+  background: #012231;
+}
+.khung .content .checkicon {
+  float: left;
+  background: #012231;
+  font-size: 15px;
+}
+.khung .content .checkicon .fa-phone {
+  margin-top: 10px;
+  margin-left: 10%;
+  color: gray;
+}
+.khung .content .checkicon .fa-phone:hover {
+  color: white;
+}
+.khung .content .checkicon .fa-envelope {
+  color: gray;
+  margin-left: 1%;
+}
+.khung .content .checkicon .fa-envelope:hover {
+  color: white;
+}
+.khung .content .checkicon .icon1 {
+  margin-top: 5px;
+  float: right;
+  color: white;
+  margin-right: 15px;
+}
+.khung .content .checkicon .icon1 .fa {
+  font-size: 17px;
+  padding-top: 8px;
+  padding-left: 5px;
+}
+.khung .content .checkicon .icon1 a {
+  color: white;
+}
+.khung .content .checkicon .icon1 .fab {
+  margin: 5px;
+}
+.khung .content .checkicon .icon1 .fas {
+  margin: 5px;
+}
+.khung .content .checkicon .icon1 .fa-facebook-f:hover {
+  color: blue;
+}
+.khung .content .checkicon .icon1 .fa-vimeo-v:hover {
+  color: #71f442;
+}
+.khung .content .checkicon .icon1 .fa-twitter:hover {
+  color: #41f4c4;
+}
+.khung .content .checkicon .icon1 .fa-linkedin-in:hover {
+  color: #f44173;
+}
+.khung .content .checkicon .icon1 .fa-google-plus-g:hover {
+  color: #f44141;
+}
+.khung .content .checkicon .icon1 .fa-pinterest:hover {
+  color: #a87780;
+}
+.khung .content .checkicon .icon1 .fa-tumblr:hover {
+  color: #929bd1;
+}
+.khung .content .checkicon .icon1 .fa-instagram:hover {
+  color: #535459;
+}
+.khung .content .checkicon .icon1 .fa-wifi:hover {
+  color: #422c17;
+}
+.khung .content .checkicon .icon2 {
+  float: right;
+  width: 35px;
+  height: 35px;
+  background: #012231;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin-right: 10%;
+  padding-top: 5px;
+  color: white;
+}
+.khung .content .checkicon .icon2 .fa-search {
+  padding-left: 10px;
+  color: white;
+}
+.khung .content .checkicon .icon2 .fa-search:hover {
+  color: blue;
+}
+@media screen and (max-width: 480px) {
+  .khung .content .checkicon .icon2 {
+    margin-top: 7%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .khung .content .checkicon .icon2 {
+    margin-top: 0%;
+  }
+}
+.khung .content .checkicon .icon2 .fas {
+  color: white;
+  padding: 9px;
+}
+.khung .content .checkicon .icon2 .fas:hover {
+  color: #7aa8d6;
+}
+.khung .content .checkicon hr {
+  width: 80%;
+  background: white;
+}
+@media screen and (max-width: 768px) {
+  .khung .content .checkicon hr {
+    margin-top: 10%;
+  }
+}
+.khung .content .checkmenu {
+  float: left;
+  background: #012231;
+}
+.khung .content .checkmenu img {
+  margin-left: 9%;
+  float: left;
+  width: 200px;
+  height: 60px;
+}
+@media screen and (max-width: 1024px) {
+  .khung .content .checkmenu img {
+    width: 180px;
+  }
+}
+.khung .content .checkmenu img .bynow not:hover {
+  background: white;
+}
+.khung .content .checkmenu ul {
+  margin-left: 10%;
+}
+.khung .content .checkmenu ul li {
+  padding-left: 20px;
+}
+.khung .content .checkmenu ul li a {
+  color: white;
+  font-size: 16px;
+}
+.khung .content .checkmenu ul li a:hover {
+  display: block;
+  background: white;
+  text-align: center;
+  color: black;
+}
+@media screen and (max-width: 1024px) {
+  .khung .content .checkmenu ul {
+    margin-left: 2%;
+  }
+  .khung .content .checkmenu ul li {
+    padding-left: 10px;
+  }
+}
+.khung .content .slide-show {
+  background: black;
+  float: left;
+  margin: 0;
+}
+.khung .content .slide-show a {
+  width: 40px;
+  height: 40px;
+  background: gray;
+  margin-top: 20%;
+  border-radius: 20px;
+}
+.khung .content .slide-show li {
+  width: 10px;
+  height: 10px;
+  background: #42f4d9;
+}
+.khung .content .slide-show .carousel-inner img {
+  opacity: 0.6;
+}
+.khung .content .slide-show .carousel-caption h5 {
+  color: white;
+  font-family: arial;
+  font-size: 35px;
+}
+@media screen and (max-width: 768px) {
+  .khung .content .slide-show .carousel-caption h5 {
+    font-size: 15px;
+  }
+}
+.khung .content .slide-show .carousel-caption p {
+  color: white;
+  margin-top: 2%;
+  font-family: arial;
+  font-size: 15px;
+}
+@media screen and (max-width: 768px) {
+  .khung .content .slide-show .carousel-caption p {
+    font-size: 8px;
+  }
+}
+.khung .content .slide-show .carousel-caption button {
+  margin-top: 2%;
+  margin-bottom: 20%;
+  border: 2px solid white;
+  color: white;
+}
+@media screen and (max-width: 768px) {
+  .khung .content .slide-show .carousel-caption button {
+    margin-bottom: 5%;
+  }
+}
+.khung .content .slide-show .carousel-caption button:hover {
+  background: #42f4d9;
+}
+.khung .nd {
+  float: left;
+  height: 100px;
+  background: #F5F5F5;
+}
+.khung .nd .nd1 {
+  font-size: 40px;
+  margin-left: 500px;
+  background: #F5F5F5;
+  border-bottom: blue 3px solid;
+  font-weight: 500;
+  color: black;
+  text-decoration: none;
+}
+@media screen and (max-width: 480px) {
+  .khung .nd .nd1 {
+    margin: 0 ;
+    padding: 0;
+  }
+}
+@media screen anh (max-width: 768px) {
+  .khung .nd {
+    margin: 0 ;
+    padding: 0;
+  }
+}
+.khung .body-card {
+  float: left;
+  background: #F5F5F5;
+  height: 250px;
+}
+.khung .body-card .card {
+  float: left;
+  height: 100%;
+  background: #F5F5F5;
+  border: none;
+}
+.khung .body-card .card .card1 {
+  background: #F5F5F5;
+  width: 100%;
+  height: 100%;
+  float: left;
+  text-align: center;
+}
+.khung .body-card .card .card1 .pic {
+  margin-top: 10px;
+}
+.khung .body-card .card .card1 h3 {
+  padding-top: 20px;
+}
+.khung .body-card .card .card1 p {
+  font-weight: 500;
+  opacity: 0.6;
+}
