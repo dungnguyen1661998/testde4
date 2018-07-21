@@ -1,6 +1,282 @@
-.container-fluid{
+
+@background: #F5F5F5;
+.khung{
+	width: 100%;
 	height: auto;
-	font-family: arial;
-	margin: 0;
-	padding: 0;
-}
+	.content{
+		width: 100%;
+		float: left;
+		background: #012231;
+		.checkicon{
+			float: left;
+			background: #012231;
+			font-size: 15px;
+			.fa-phone{
+				margin-top: 10px;
+				margin-left: 10%;
+				color: gray;
+				&:hover{
+					color: white;
+				}
+			}
+			.fa-envelope{
+				color: gray;
+				margin-left: 1%;
+				&:hover{
+					color: white;
+				}
+			}
+			.icon1{
+				margin-top: 5px;
+				float: right;
+				color: white;
+				margin-right: 15px;
+				.fa{
+					font-size: 17px;
+					padding-top: 8px;
+					padding-left: 5px;
+				}
+				a{
+					color: white;
+				}
+				.fab {
+					margin: 5px;
+				}
+				.fas{
+					margin: 5px;
+				}
+				.fa-facebook-f{
+					&:hover{
+						color: blue;
+					}
+				}
+				.fa-vimeo-v{
+					&:hover{
+						color: #71f442;
+					}
+				}
+				.fa-twitter{
+					&:hover{
+						color: #41f4c4;
+					}
+				}
+				.fa-linkedin-in{
+					&:hover{
+						color: #f44173;
+					}
+				}
+				.fa-google-plus-g{
+					&:hover{
+						color: #f44141;
+					}
+				}
+				.fa-pinterest{
+					&:hover{
+						color: #a87780;
+					}
+				}
+				.fa-tumblr{
+					&:hover{
+						color: #929bd1;
+					}
+				}
+				.fa-instagram{
+					&:hover{
+						color: #535459;
+					}
+				}
+				.fa-wifi{
+					&:hover{
+						color: #422c17;
+					}
+				}				
+			}
+			.icon2{
+				float: right;
+				width: 35px;
+				height: 35px;
+				background: #012231;
+				border: 1px solid white;
+				border-radius: 50%;
+				margin-right: 10%;
+				padding-top: 5px;
+				color: white;
+				.fa-search{
+					padding-left: 10px;
+					color: white;
+					&:hover{
+						color: blue;
+					}
+				}
+				@media screen and( max-width: 480px){
+					margin-top: 7%;
+				}
+				@media screen and( max-width: 768px){
+					margin-top: 0%;
+				}
+				.fas{
+					color: white;
+					padding: 9px;
+					&:hover{
+						color: #7aa8d6;
+					}
+				}
+			}
+			hr{
+				width: 80%;
+				background: white;
+				@media screen and (max-width: 768px) {
+					margin-top: 10%;				
+				}
+			}
+		}
+		.checkmenu{
+			float: left;
+			background: #012231;
+			img{	
+				margin-left: 9%;
+				float: left;
+				width: 200px;
+				height: 60px;
+				@media screen and (max-width: 1024px){
+					width: 180px;
+				}
+				.bynow not:hover{
+					background: white;
+				}
+			}
+			ul{
+				margin-left: 10%;
+				li{
+					padding-left: 20px;
+					a{
+						color: white;
+						font-size: 16px;
+						&:hover{
+							display: block;
+							background: white;
+							text-align: center;
+							color: black;
+						}
+					}
+				}
+			}
+			@media screen and (max-width: 1024px){
+				ul{
+					margin-left: 2%;
+					li{
+						padding-left: 10px;
+					}
+				}
+			}
+		}
+		.slide-show{
+			background: black;
+			float: left;
+			margin: 0;
+			a{
+				width: 40px;
+				height: 40px;
+				background: gray;
+				margin-top: 20%;
+				border-radius: 20px;
+			}
+			li{
+				width: 10px;
+				height: 10px;
+				background: #42f4d9;
+			}
+			.carousel-inner{
+				.carousel-item{			
+				}
+				img{
+					opacity: 0.6;
+				}
+			}
+			.carousel-caption{
+				h5{
+					color: white;
+					font-family: arial;
+					font-size: 35px;
+					@media screen and (max-width: 768px){
+						font-size: 15px;
+					}
+				}	
+				p{
+					color: white;
+					margin-top: 2%;
+					font-family: arial;
+					font-size: 15px;
+					@media screen and (max-width: 768px){
+						font-size: 8px;
+					}
+				}
+				button{
+					margin-top: 2%;
+					margin-bottom: 20%;
+					border: 2px solid white;
+					color: white;
+					
+					@media screen and (max-width: 768px){
+						margin-bottom: 5%;
+					}
+					&:hover{
+						background: #42f4d9;
+					}
+				}	
+			}
+		}
+	}
+	.nd{
+		float: left;
+		height: 100px;
+		background: @background;
+		.nd1{
+			font-size: 40px;
+			margin-left: 500px;
+			background: @background;
+			border-bottom: blue 3px solid;
+			font-weight: 500;
+			color: black;
+			text-decoration: none;
+			@media screen and( max-width: 480px){
+					margin:0 ;
+					padding: 0;
+				}	
+		}   @media screen anh( max-width: 768px ){
+			        margin:0 ;
+					padding: 0;
+		}
+	}
+	.body-card{
+		float: left;
+		background: @background;
+		height: 250px;
+		.card{
+			float: left;
+			height: 100%;
+			background: @background;
+				border:none;
+			.card1{
+				background: @background;
+				width: 100%;
+				height: 100%;
+				float: left;
+				text-align: center;
+
+				
+				.pic{
+					margin-top: 10px;
+				}
+				h3{
+					padding-top: 20px;
+				}
+				p{
+					font-weight: 500;
+					opacity: 0.6;
+				}
+			}
+		}
+	}
+} 	
+
