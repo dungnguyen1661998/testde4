@@ -166,6 +166,301 @@
 	font-family: arial;
 	margin: 0;
 	padding: 0;
+	@max: 100%;
+	.box2-des{
+		background-image: url(anh/box2-bg.jpg);
+		height: 460px;
+		width: @max;
+		.box-anh{
+			float: left;
+			width: 23.5%;
+			height: 220px;
+			// background: blue;
+			margin-left: 7.5%;
+			@media all and(max-width: 480px){
+				height: 30px;
+			}
+			img{
+				float: left;
+				width: @max;
+				height: @max;
+				transition: ease-in-out 0.1s;
+				&:hover{
+				transform: scale(1.2);
+				}
+			}
+		}
+		h4{
+			display: block;
+			margin: 30px auto;
+			width: 20%;
+			height: 50px;
+			line-height: 50px;
+			text-align: center;
+			color: white;
+			border-bottom: 1.5px solid gray;
+			}
+		hr{
+			margin-top: -33px;
+			width: 7.5%;
+			border: 1px solid blue;
+		}
+		h6{
+			text-align: center;
+			color: white;
+			margin-bottom: 40px;
+		}
+		
+	}
+	.box2-pack{
+		height: 490px;
+		width: @max;
+		// background: red;
+		.box2-khung{
+			height: auto;
+			width: 90%;
+			margin: 0 auto;
+			margin-bottom: 30px;
+			// border: 1px solid black;
+		}
+		.box2-1{
+			float: left;
+			height: 350px;
+			width: 21%;
+			margin-top: 25px;
+			margin-left: 38px;
+			border: 1px solid #ddd;
+			text-align: center;
+			&:hover{
+				box-shadow: 2px 2px 2px lightgray;
+			}
+			.sao{
+				margin: 0 auto;
+				width: 26%;
+				height: 17px;
+				margin-bottom: 15px;
+				img{
+					float: left;
+					width: 12px;
+					height: 12px;
+				}
+			}
+			img{
+				float: left;
+				width: @max;
+				height: 65%;
+				margin-bottom: 10px;
+			}
+			a{
+				text-decoration: none;
+				font-size: 13px;
+				font-weight: bold;
+				color: black;
+			}
+			h5{
+				display: block;
+				height: 30px;
+				width: 55%;
+				// background: red;
+				text-align: center;
+				color: #1e73be;
+				float: left;
+			}
+			.h55{
+				display: block;
+				height: auto;
+				width: 55%;
+				text-align: center;
+				color: #1e73be;
+				float: left;
+				margin-left: 25%;
+			}
+			h6{
+				display: block;
+				height: auto;
+				width: 20%;
+				// background: blue;
+				color: #1e73be;
+				float: left;
+				text-decoration: line-through;
+			}
+		}
+		.box2-2{
+			.box2-1;
+			height: 337px;
+			position: relative;
+			&:hover .sale{
+				display: none;
+			}
+			.sale{
+				width: 20%;
+				height: 15%;
+				position: absolute;
+				left: 0;
+			}
+		}
+		.box2-3{
+			.box2-1;
+			height: 320px;
+		}
+		.box2-4{
+			.box2-1;
+			height: 337px;
+			position: relative;
+			&:hover .sale{
+				display: none;
+			}
+			.sale{
+				width: 20%;
+				height: 15%;
+				position: absolute;
+				left: 0;
+			}
+		}
+		h4{
+			display: block;
+			margin: auto;
+			width: 22%;
+			height: 50px;
+			line-height: 50px;
+			text-align: center;
+			color: black;
+			border-bottom: 1.5px solid gray;
+			}
+		hr{
+			margin-top: -3px;
+			width: 7.5%;
+			border: 1px solid blue;
+		}
+	}
+	@media all and (max-width: 1024px){
+		.box2-des{
+			height: 400px;
+			.box-anh{
+				height: 150px;
+			}
+			h4{
+				width: @max;
+			}
+		}
+		.box2-pack{
+			height: 770px;
+			h4{
+				width: @max;
+			}
+			.respon{
+				width: @max;
+				height: auto;
+				background: red;
+			}
+			.box2-1{
+			width: 37%;
+			height: 310px;
+			margin-left: 11%;
+				}
+			.box2-2{
+				width: 37%;
+				height: 310px;
+				}
+			.box2-3{
+				width: 37%;
+				height: 310px;
+				margin-left: 11%;
+				}
+			.box2-4{
+				width: 37%;
+				height: 310px;
+				}
+		}		
+	}
+	@media all and(max-width: 480px){
+		.box2-des{
+			height: 320px;
+			.box-anh{
+				height: 25%;
+			}
+			.sao{
+				img{
+					width: 5px;
+				}
+			}
+		}
+		.box2-pack{
+			height: 550px;
+			.box2-khung{
+				// height: 560px;
+				h6{
+					visibility: hidden;
+				}
+			}
+			.box2-1{
+				height: 200px;
+				margin-left: 8%;
+				.sao{
+				display: none;					
+				}
+				img{
+					width: @max;
+					height: 50%;
+				}
+			}
+			.box2-2{
+				height: 200px;
+				.sao{
+				display: none;					
+				}
+				img{
+					width: @max;
+					height: 50%;
+				}
+			}
+			.box2-3{
+				height: 200px;
+				margin-left: 8%;
+				.sao{
+				display: none;					
+				}
+				img{
+					width: @max;
+					height: 50%;
+				}
+			}
+			.box2-4{
+				height: 200px;
+				.sao{
+				display: none;					
+				}
+				img{
+					width: @max;
+					height: 50%;
+				}
+			}
+		}
+	}
+	@media all and(max-width: 320px){
+		.box2-pack{
+			height: 980px;
+			.box2-khung{
+				.box2-1{
+					margin-left: 15%;
+					width: 70%;
+				}
+				.box2-2{
+					margin-left: 15%;
+					width: 70%;
+				}
+				.box2-3{
+					margin-left: 15%;
+					width: 70%;
+				}
+				.box2-4{
+					margin-left: 15%;
+					width: 70%;
+				}
+			}
+		}
+	}
+
 }
 #box2{
 	margin: 0 auto;
